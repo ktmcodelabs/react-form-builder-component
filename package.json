@@ -4,7 +4,7 @@
   "description": "Form Builder package from json",
   "author": "ktmcodelabs",
   "license": "MIT",
-  "repository": "ktmcodelabs/form-builder",
+  "repository": "ktmcodelabs/react-form-builder-component",
   "homepage": "https://ktmcodelabs.github.io/react-form-builder/",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",

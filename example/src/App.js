@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { FormBuilder, FormRender } from 'form-builder'
+import { FormBuilder, FormRender } from 'react-form-builder-component'
 import 'form-builder/dist/index.css'
 
 
