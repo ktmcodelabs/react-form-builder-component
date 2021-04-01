@@ -1,4 +1,4 @@
-# form-builder
+# react-form-builder-component
 
 > React JS Form Builder package from json
 
