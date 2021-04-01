@@ -89,7 +89,8 @@ const Builder = (props) => {
 
 
     return <Fragment>
-        <h2>Form Detail <button className={`${fromBuilderStub.btnClass} btn${showCode ? '' : '-outline'}-primary`} onClick={() => setShowCode(!showCode)}><i className="fa fa-code" ></i></button> </h2>
+        <h2>Form Detail <button className={`${fromBuilderStub.btnClass} btn${showCode ? '' : '-outline'}-primary`} 
+        onClick={() => setShowCode(!showCode)}>{"{  }"}</button> </h2>
 
         {showCode && <textarea
             autoFocus={true}
@@ -102,7 +103,8 @@ const Builder = (props) => {
         {!showCode && <>
             <div className="form-group">
                 <label>Form Title</label>
-                <input type="text" className={fromBuilderStub.inputClass} name="title" onChange={handleChangeFormInput} value={form.title} />
+                <input type="text" className={fromBuilderStub.inputClass} name="title" 
+                onChange={handleChangeFormInput} value={form.title} />
             </div>
             <div className="form-group">
                 <label>Description</label>
