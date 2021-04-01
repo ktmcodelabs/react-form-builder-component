@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ExampleComponent } from 'form-builder'
+import { FormBuilder as  ExampleComponent } from 'form-builder'
 import 'form-builder/dist/index.css'
 
 const App = () => {

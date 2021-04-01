@@ -1,6 +1,8 @@
-import React from 'react'
-import styles from './styles.module.css'
+import FormBuilder from './components/Builder'
+import FormRender from './components/Form'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+// export Foo and Bar as named exports
+export { FormBuilder, FormRender }
+
+// you can optionally also set a default export for your module
+// export default { FormBuilder, FormRender }
