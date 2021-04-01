@@ -1,11 +1,11 @@
 {
   "name": "react-form-builder-component",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Form Builder package from json",
   "author": "ktmcodelabs",
   "license": "MIT",
   "repository": "ktmcodelabs/react-form-builder-component",
-  "homepage": "https://ktmcodelabs.github.io/react-form-builder/",
+  "homepage": "https://ktmcodelabs.github.io/react-form-builder-component/",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
