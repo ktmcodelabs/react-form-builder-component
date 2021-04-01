@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import { FormBuilder, FormRender } from 'react-form-builder-component'
-import 'form-builder/dist/index.css'
+import 'react-form-builder-component/dist/index.css'
 
 
 const predefinedForm = {
