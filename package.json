@@ -24,6 +24,15 @@
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
   },
+  "keywords": [
+    "React JS",
+    "React",
+    "Form",
+    "Form Builder"
+  ],
+  "bugs": {
+    "url": "https://github.com/ktmcodelabs/react-form-builder-component/issues"
+  },
   "peerDependencies": {
     "react": "^16.0.0",
     "uuid": "^8.3.2"
